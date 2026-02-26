@@ -9,16 +9,16 @@
 export const SITE_CONFIG = {
   // Nombre de la veterinaria
   name: 'Kinesa Clinica Veterinaria',
-  
+
   // Eslogan o frase principal
   tagline: 'Calidad que se nota, amor que se siente',
-  
+
   // Descripción general (para SEO)
   description: 'Atención veterinaria de excelencia para tus mejores amigos. Servicios completos con amor, profesionalismo y tecnología de vanguardia.',
-  
+
   // Logo principal (ruta desde la carpeta public)
   logo: '/logo-kinesa.jpg',
-  
+
   // Favicon
   favicon: '/logo-kinesa.jpg',
 };
@@ -29,22 +29,22 @@ export const SITE_CONFIG = {
 export const COLORS = {
   // Color principal (turquesa del logo)
   primary: '#00A0B0',
-  
+
   // Color principal oscuro (hover)
   primaryDark: '#008899',
-  
+
   // Color secundario/accent
   accent: '#00C4D4',
-  
+
   // Color de texto principal
   textPrimary: '#1a1a1a',
-  
+
   // Color de texto secundario
   textSecondary: '#666666',
-  
+
   // Color de fondo
   background: '#ffffff',
-  
+
   // Color de fondo alternativo
   backgroundAlt: '#f8fafc',
 };
@@ -56,19 +56,19 @@ export const CONTACT_INFO = {
   // Dirección
   address: 'Pcia de jujuy 165',
   city: 'San Miguel de Tucuman, Argentina',
-  
+
   // Teléfonos
   phone: '(54) 3816272590',
   emergencyPhone: '(54) 3812579266',
-  
+
   // Emails
   email: 'veterinariakinesa@gmail.com',
   appointmentsEmail: 'veterinariakinesa@gmail.com',
-  
+
   // Horario
-  weekdayHours: 'Lun - Vie: 9:00 - 22:00',
-  weekendHours: 'Sáb - Dom: 9:00 - 13:00',
-  
+  weekdayHours: 'Lunes a Viernes: 9:00 - 22:00 hs',
+  weekendHours: 'Sábados: 9:00 - 13:00 hs | Domingos: Cerrado',
+
   // Redes sociales (dejar en '' si no tienes)
   social: {
     facebook: 'https://facebook.com/veterinariakinesa',
@@ -84,27 +84,27 @@ export const CONTACT_INFO = {
 export const HERO_CONFIG = {
   // Título principal
   title: 'Veterinaria',
-  
+
   // Subtítulo o nombre destacado
   highlightedTitle: 'Kinesa',
-  
+
   // Descripción
   description: 'Atención veterinaria de excelencia para tus mejores amigos. Servicios completos con amor, profesionalismo y tecnología de vanguardia.',
-  
+
   // Imagen de fondo (opcional - dejar en '' para usar gradiente)
   // Ejemplo: '/images/hero-bg.jpg'
   backgroundImage: '',
-  
+
   // Imagen del lado derecho (dejar en '' para usar logo)
   // Ejemplo: '/images/hero-mascotas.png'
   sideImage: '/images/hero-mascotas.jpg',
-  
+
   // Texto del botón principal
   primaryButtonText: 'Agendar Cita',
-  
+
   // Texto del botón secundario
   secondaryButtonText: 'Nuestros Servicios',
-  
+
   // Estadísticas
   stats: [
     { value: '15+', label: 'Años de experiencia' },
@@ -120,10 +120,10 @@ export const SERVICES_CONFIG = {
   // Título de la sección
   title: 'Cuidamos de tu mascota en',
   highlightedTitle: 'todos los aspectos',
-  
+
   // Descripción
   description: 'Ofrecemos una amplia gama de servicios veterinarios para mantener a tu compañero peludo sano y feliz en cada etapa de su vida.',
-  
+
   // Lista de servicios
   services: [
     {
@@ -177,7 +177,7 @@ export const SERVICES_CONFIG = {
       color: 'red',
     },
   ],
-  
+
   // CTA al final de servicios
   ctaText: '¿Necesitas ayuda?',
   ctaSubtext: 'Contáctanos para más información sobre nuestros servicios',
@@ -191,16 +191,16 @@ export const ABOUT_CONFIG = {
   // Título
   title: 'Tu mascota en las',
   highlightedTitle: 'mejores manos',
-  
+
   // Párrafos de descripción
   paragraph1: 'En Clinica Veterinaria Kinesa, entendemos que tus mascotas son parte de tu familia. Por eso, nos dedicamos a brindar atención veterinaria de la más alta calidad con amor, dedicación y profesionalismo.',
-  
+
   paragraph2: 'Nuestro equipo de veterinarios altamente capacitados utiliza tecnología de vanguardia para diagnosticar y tratar a tus compañeros peludos, asegurando que reciban el mejor cuidado posible en cada visita.',
-  
+
   // Imagen principal (dejar en '' para usar logo)
   // Ejemplo: '/images/clinica.jpg'
   mainImage: '/images/equipo-veterinarios.jpg',
-  
+
   // Características/lista
   features: [
     'Veterinarios certificados y en constante capacitación',
@@ -210,7 +210,7 @@ export const ABOUT_CONFIG = {
     'Ambiente cálido y amigable',
     'Precios accesibles sin comprometer la calidad',
   ],
-  
+
   // Estadísticas
   stats: [
     { value: '15+', label: 'Años de experiencia', icon: 'Award' },
@@ -226,10 +226,10 @@ export const TESTIMONIALS_CONFIG = {
   // Título
   title: 'Lo que dicen nuestros',
   highlightedTitle: 'clientes felices',
-  
+
   // Descripción
   description: 'Miles de familias confían en nosotros el cuidado de sus mascotas. Esto es lo que opinan de nuestra atención.',
-  
+
   // Lista de testimonios
   testimonials: [
     {
@@ -282,7 +282,7 @@ export const TESTIMONIALS_CONFIG = {
       text: 'Kinesa es la mejor veterinaria de la zona. El Dr. García explica todo con detalle y siempre está disponible para resolver dudas.',
     },
   ],
-  
+
   // Badge de confianza
   trustBadge: {
     rating: '4.9',
@@ -298,17 +298,17 @@ export const CONTACT_CONFIG = {
   // Título
   title: 'Estamos aquí para',
   highlightedTitle: 'ayudarte',
-  
+
   // Descripción
   description: '¿Tienes alguna pregunta o necesitas agendar una cita? Contáctanos y te responderemos lo antes posible.',
-  
+
   // Imagen del mapa (dejar en '' para usar placeholder)
   mapImage: '',
-  
+
   // Coordenadas para Google Maps (opcional)
   // Ejemplo: '26.8318106,-65.2115594,54' ,
-  mapCoordinates: '',
-  
+  mapCoordinates: '-26.831339,-65.211475',
+
   // Formulario
   form: {
     title: 'Envíanos un mensaje',
@@ -329,7 +329,7 @@ export const CONTACT_CONFIG = {
 export const FOOTER_CONFIG = {
   // Descripción corta
   description: 'Cuidamos de tus mascotas como si fueran nuestra propia familia. Más de 15 años de experiencia en atención veterinaria de excelencia.',
-  
+
   // Enlaces rápidos
   quickLinks: [
     { name: 'Inicio', href: '#inicio' },
@@ -338,7 +338,7 @@ export const FOOTER_CONFIG = {
     { name: 'Testimonios', href: '#testimonios' },
     { name: 'Contacto', href: '#contacto' },
   ],
-  
+
   // Servicios listados en footer
   servicesList: [
     { name: 'Consulta General', href: '#servicios' },
@@ -348,7 +348,7 @@ export const FOOTER_CONFIG = {
     { name: 'Laboratorio', href: '#servicios' },
     { name: 'Urgencias 24/7', href: '#servicios' },
   ],
-  
+
   // Texto final
   madeWithLove: 'Hecho con ❤️ para tus mascotas',
 };
@@ -365,7 +365,7 @@ export const NAVIGATION_CONFIG = {
     { name: 'Testimonios', href: '#testimonios' },
     { name: 'Contacto', href: '#contacto' },
   ],
-  
+
   // Texto del botón CTA
   ctaButtonText: 'Llamar Ahora',
 };
